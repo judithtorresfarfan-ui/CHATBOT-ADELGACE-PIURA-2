@@ -1,0 +1,33 @@
+CLINICA = "Adelgace Piura"  
+HORARIO = "Lunes a Sábado: 8:00 a.m. – 6:00 p.m."
+DIRECCION = "Urb. Bello Horizonte 1 Etapa Mz. A - Lote 10"
+MAPS = "https://maps.app.goo.gl/Kgp1w9H4rRxVm45R8"
+
+# Edita descripciones y precios según tu clínica
+TRATAMIENTOS = {
+    "t_cavitacion": {
+        "nombre": "Cavitación ultrasónica",
+        "desc": "Ondas de ultrasonido que ayudan a reducir grasa localizada en abdomen, flancos y piernas.",
+    },
+    "t_radiofrecuencia": {
+        "nombre": "Radiofrecuencia corporal",
+        "desc": "Calor controlado que ayuda a reafirmar la piel y mejorar la flacidez.",
+    },
+    "t_criolipolisis": {
+        "nombre": "Criolipólisis",
+        "desc": "Frío controlado para tratar zonas de grasa localizada, sin cirugía ni agujas.",
+    },
+    "t_presoterapia": {
+        "nombre": "Presoterapia",
+        "desc": "Masaje por presión de aire que activa la circulación y ayuda a reducir la retención de líquidos.",
+    },
+    "t_electro": {
+        "nombre": "Electroestimulación muscular",
+        "desc": "Estimula y tonifica los músculos sin esfuerzo físico intenso.",
+    },
+}
+
+AVISO = (
+    "ℹ️ Los resultados varían según cada persona. Todos los tratamientos requieren "
+    "una evaluación previa gratuita con nuestro equipo y no sustituyen una consulta médica."
+)
